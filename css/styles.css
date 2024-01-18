@@ -469,14 +469,14 @@ float: none;
 	color: #AEAEAE;
 	font-size: 16px;
 }
-#aboutUs{
+#about{
 padding:60px 0;	
 	}
-#aboutUs .txtHead {
+#about .txtHead {
 	background: #fff;
 	padding: 20px 10px;
 }
-#aboutUs .txtHead .fa {
+#about .txtHead .fa {
 	font-size: 58px;
 	color: #5E5E5E;
 }
@@ -592,7 +592,7 @@ min-height:200px;
 	font-size: 14px;
 }
 .experience-details .icon-block {
-	float: left;
+	float: center;
 	margin-right: 20px;
 }
 .experience-details .icon-block i {
@@ -802,7 +802,7 @@ a.current {
 	top: 5px;
 }
 .projects-item .projects-desc .folio-info h5 {
-	text-transform: uppercase;
+/* 	text-transform: uppercase; */
 	text-align: center;
 	font-weight: bold;
 	font-size: 1.4em;
@@ -928,17 +928,17 @@ footer {
 #projects{
 background: #DBDBDB;	
 	}
-#contactUs{
+#contact{
 	 background: #3394D5;
 }
-#contactUs p{
+#contact p{
 color:#000;
 }
-#contactUs .btn{
+#contact .btn{
 background: #fff;
 color: #5887FF;
 }
-#contactUs .btn:hover{
+#contact .btn:hover{
 color: #000;
 }
 @media (min-width: 768px) {
@@ -1130,7 +1130,7 @@ display: inline-block;
 	top: 0px;
 }
 .projects-item .projects-desc .folio-info h5 {
-	text-transform: uppercase;
+/* 	text-transform: uppercase; */
 	text-align: center;
 	font-weight: normal;
 	font-size: 10px;
