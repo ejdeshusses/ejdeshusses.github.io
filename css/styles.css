@@ -380,6 +380,27 @@ letter-spacing: .1em;
 line-height: 3em;
 text-transform: uppercase;
 }
+.banner-content header h1-y{
+ text-align:center;
+ margin: 0;
+ color: #fffccc;
+padding: 0 -20px;
+font-size: 4.5em;
+font-weight: 700;
+letter-spacing: .1em;
+line-height: 1em;
+text-transform: uppercase;
+}
+.banner-content header p-y{
+ text-align:center;
+ font-size: 2em;
+ color: #fffccc;
+margin-bottom: 5px;
+padding: 0 -12px;
+letter-spacing: .1em;
+line-height: 3em;
+text-transform: uppercase;
+}
 .centered {
 margin-left: auto;
 margin-right: auto;
@@ -773,7 +794,7 @@ a.current {
 	background: rgba(0, 0, 0, 0.64);
 }
 .projects-item:hover .projects-desc {
-	padding-top: 20%;
+	padding-top: 10%;
 	height: 100%;
 	transition: all 200ms ease-in-out 0s;
 	opacity: 1;
