@@ -383,8 +383,8 @@ text-transform: uppercase;
 .banner-content header h1-y{
  text-align:center;
  margin: 0;
- color: #fffccc;
-padding: 0 -20px;
+ color: #424240;
+padding: -20px;
 font-size: 4.5em;
 font-weight: 700;
 letter-spacing: .1em;
@@ -394,9 +394,9 @@ text-transform: uppercase;
 .banner-content header p-y{
  text-align:center;
  font-size: 2em;
- color: #fffccc;
+ color: #424240;
 margin-bottom: 5px;
-padding: 0 -12px;
+padding: 0 8px;
 letter-spacing: .1em;
 line-height: 3em;
 text-transform: uppercase;
