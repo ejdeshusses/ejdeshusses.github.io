@@ -361,7 +361,7 @@ color:#000;
 padding:8px 5px;
 margin-top:25px;
 }
-.banner-content header  h1{
+.banner-content header h1{
  text-align:center;
  margin: 0;
 padding: 0;
@@ -380,7 +380,7 @@ letter-spacing: .1em;
 line-height: 3em;
 text-transform: uppercase;
 }
-.banner-content header h1-y{
+.banner-content header h2{
  text-align:center;
  margin: 0;
  color: #555;
@@ -391,7 +391,7 @@ letter-spacing: .1em;
 line-height: 1em;
 text-transform: uppercase;
 }
-.banner-content header p-y{
+.banner-content header p2{
  text-align:center;
  font-size: 2em;
  color: #555;
