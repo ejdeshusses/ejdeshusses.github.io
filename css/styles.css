@@ -1188,7 +1188,8 @@ nav#filter li {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-/* Pasted from multi-purpose bootstrap template */
+/* =====================================
+Pasted from multi-purpose bootstrap template */
   #accordion-alt3 .panel-heading h4 {
 font-size: 13px;
 line-height: 28px;
@@ -1226,3 +1227,45 @@ border-radius: 50%;
 margin-left: 6px;
 background: #2FADDE;
 }  
+
+
+/* Content
+==================================== */
+#content {
+	position:relative;
+	background:#fff;
+	padding:50px 0 0px 0;
+}
+#content img {
+	max-width:100%;
+	height:auto;
+}
+.cta-text {
+	text-align: center;
+	margin-top:10px;
+}
+.big-cta .cta {
+	margin-top:10px;
+}
+.box {
+	width: 100%;
+}
+.box-gray  {
+	background: #f8f8f8;
+	padding: 20px 20px 30px;
+}
+.box-gray  h4,.box-gray  i {
+	margin-bottom: 20px;
+}
+.box-bottom {
+	padding: 20px 0;
+	text-align: center;
+}
+.box-bottom a {
+	color: #fff;
+	font-weight: 700;
+}
+.box-bottom a:hover {
+	color: #eee;
+	text-decoration: none;
+}
