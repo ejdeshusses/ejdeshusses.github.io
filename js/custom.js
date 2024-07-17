@@ -45,6 +45,21 @@ var customScripts = {
             });
         }
     },
+    exportfolio: function() {
+	    // accordion/panel for portfolio
+	    $('.accordion').on('show', function (e) {
+		
+			$(e.target).prev('.accordion-heading').find('.accordion-toggle').addClass('active');
+			$(e.target).prev('.accordion-heading').find('.accordion-toggle i').removeClass('icon-plus');
+			$(e.target).prev('.accordion-heading').find('.accordion-toggle i').addClass('icon-minus');
+		});
+		
+		$('.accordion').on('hide', function (e) {
+			$(this).find('.accordion-toggle').not($(e.target)).removeClass('active');
+			$(this).find('.accordion-toggle i').not($(e.target)).removeClass('icon-minus');
+			$(this).find('.accordion-toggle i').not($(e.target)).addClass('icon-plus');
+		});	
+    },	    
     fancybox: function () {
         // fancybox
         $(".fancybox").fancybox();
@@ -112,6 +127,7 @@ var customScripts = {
     init: function () {
         customScripts.onePageNav();
         customScripts.profile();
+        customScripts.exportfolio();
         customScripts.fancybox();
         customScripts.slider();
         customScripts.owlSlider();
