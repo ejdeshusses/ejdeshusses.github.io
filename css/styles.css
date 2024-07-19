@@ -172,7 +172,7 @@ h2 {
 
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
-	color: #fff;
+	color: #000;
 }
 
 .navbar-inverse .navbar-toggle:hover .icon-bar {
@@ -180,12 +180,12 @@ h2 {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: #fff;
+	color: #000;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
-	color: #FFFFFF;
+	color: #000000;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -198,7 +198,7 @@ h2 {
 .navbar-toggle {}
 
 .addBg {
-	background: #000 !important;
+	background: #205 !important;
 	-webkit-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	-moz-box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
 	box-shadow: 0px 3px 4px 0px rgba(50, 50, 50, 0.38);
@@ -297,14 +297,14 @@ h2 {
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:hover,
 .navbar-inverse .navbar-nav>.active>a:focus {
-	color: #fff;
+	color: #ffa;
 	background: none;
 	border-bottom: 2px solid #5887FF;
 	border-radius: 0px;
 }
 
 .navbar-nav>li:hover>a {
-	color: #fff;
+	color: #ffb;
 }
 
 .header .navbar-nav>li>a {
