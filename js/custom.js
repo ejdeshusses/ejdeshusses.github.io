@@ -45,31 +45,31 @@ var customScripts = {
             });
         }
     },
-    exportfolio: function() {
-	    // accordion/panel for portfolio
-	    $('.accordion').on('show', function (e) {
-		
-			$(e.target).prev('.accordion-heading').find('.accordion-toggle').addClass('active');
-			$(e.target).prev('.accordion-heading').find('.accordion-toggle i').removeClass('icon-plus');
-			$(e.target).prev('.accordion-heading').find('.accordion-toggle i').addClass('icon-minus');
-		});
-		
-		$('.accordion').on('hide', function (e) {
-			$(this).find('.accordion-toggle').not($(e.target)).removeClass('active');
-			$(this).find('.accordion-toggle i').not($(e.target)).removeClass('icon-minus');
-			$(this).find('.accordion-toggle i').not($(e.target)).addClass('icon-plus');
-		});	
-    },	    
+    exportfolio: function () {
+        // accordion/panel for portfolio
+        $('.accordion').on('show', function (e) {
+
+            $(e.target).prev('.accordion-heading').find('.accordion-toggle').addClass('active');
+            $(e.target).prev('.accordion-heading').find('.accordion-toggle i').removeClass('icon-plus');
+            $(e.target).prev('.accordion-heading').find('.accordion-toggle i').addClass('icon-minus');
+        });
+
+        $('.accordion').on('hide', function (e) {
+            $(this).find('.accordion-toggle').not($(e.target)).removeClass('active');
+            $(this).find('.accordion-toggle i').not($(e.target)).removeClass('icon-minus');
+            $(this).find('.accordion-toggle i').not($(e.target)).addClass('icon-plus');
+        });
+    },
     fancybox: function () {
         // fancybox
         $(".fancybox").fancybox();
     },
     onePageNav: function () {
 
-        		if($('#main-nav ul li:first-child').hasClass('active')){
-					$('#main-nav').css('background','none');
-		}
-        $('#mainNav').onePageNav({        
+        if ($('#main-nav ul li:first-child').hasClass('active')) {
+            $('#main-nav').css('background', 'none');
+        }
+        $('#mainNav').onePageNav({
             currentClass: 'active',
             changeHash: false,
             scrollSpeed: 950,
@@ -78,24 +78,24 @@ var customScripts = {
             easing: 'swing',
             begin: function () {
                 //I get fired when the animation is starting
-				
+
             },
             end: function () {
                 //I get fired when the animation is ending
-				if(!$('#main-nav ul li:first-child').hasClass('active')){
-					$('.header').addClass('addBg');					
-				}else{
-						$('.header').removeClass('addBg');
-				}
-				
+                if (!$('#main-nav ul li:first-child').hasClass('active')) {
+                    $('.header').addClass('addBg');
+                } else {
+                    $('.header').removeClass('addBg');
+                }
+
             },
             scrollChange: function ($currentListItem) {
                 //I get fired when you enter a section and I pass the list item of the section
-				if(!$('#main-nav ul li:first-child').hasClass('active')){
-					$('.header').addClass('addBg');
-				}else{
-						$('.header').removeClass('addBg');
-				}
+                if (!$('#main-nav ul li:first-child').hasClass('active')) {
+                    $('.header').addClass('addBg');
+                } else {
+                    $('.header').removeClass('addBg');
+                }
             }
         });
     },
@@ -136,32 +136,32 @@ var customScripts = {
 }
 $('document').ready(function () {
     customScripts.init();
-	$('#diagram-id-1').diagram({ 
-			size: "190",
-			borderWidth: "10",
-			bgFill: "#95a5a6",
-			frFill: "#3498db",
-			textSize: 54,
-			textColor: '#1a1a1a'
-		}); 
-		$('#diagram-id-2').diagram({ 
-			size: "190",
-			borderWidth: "10",
-			bgFill: "#95a5a6",
-			frFill: "#3498db",
-			textSize: 54,
-			textColor: '#333'
-		});
+    $('#diagram-id-1').diagram({
+        size: "190",
+        borderWidth: "10",
+        bgFill: "#95a5a6",
+        frFill: "#3498db",
+        textSize: 54,
+        textColor: '#1a1a1a'
+    });
+    $('#diagram-id-2').diagram({
+        size: "190",
+        borderWidth: "10",
+        bgFill: "#95a5a6",
+        frFill: "#3498db",
+        textSize: 54,
+        textColor: '#333'
+    });
 
-		$('#diagram-id-3').diagram({ 
-			size: "190",
-			borderWidth: "10",
-			bgFill: "#95a5a6",
-			frFill: "#3498db",
-			textSize: 54,
-			textColor: '#1a1a1a'
-		});
-		$(window).load(function() { 
-			  $('#filter .current').trigger('click');
-		});
+    $('#diagram-id-3').diagram({
+        size: "190",
+        borderWidth: "10",
+        bgFill: "#95a5a6",
+        frFill: "#3498db",
+        textSize: 54,
+        textColor: '#1a1a1a'
+    });
+    $(window).load(function () {
+        $('#filter .current').trigger('click');
+    });
 });
