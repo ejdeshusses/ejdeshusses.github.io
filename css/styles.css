@@ -172,7 +172,7 @@ h2 {
 
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
-	color: #000;
+	color: #fa9e70;
 }
 
 .navbar-inverse .navbar-toggle:hover .icon-bar {
@@ -180,12 +180,14 @@ h2 {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: #000;
+	color: #e56d30;
+/* 	color: #000; */
 }
 
 .navbar-inverse .navbar-nav>li>a:hover,
 .navbar-inverse .navbar-nav>li>a:focus {
-	color: #000000;
+	color: #f65606;
+/* 	color: #000000; */
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -388,7 +390,8 @@ h2 {
 	font-size: 1.6em;
 	font-weight: normal;
 	font-style: normal;
-	color: #e0e0e0;
+	color: #d1d1d1;
+/* 	color: #e0e0e0; */
 /* 	color: #888; */
 /* 	color: #fff; */
 }
@@ -411,7 +414,7 @@ h2 {
 .banner-content .social-icons a {
 	text-align: center;
 /* 	border: 1px solid #fff; */
-	border: 1px solid #777;
+	border: 1px solid #999;
 	border-radius: 90px !important;
 	height: 52px;
 	line-height: 60px;
@@ -419,7 +422,7 @@ h2 {
 	width: 52px;
 	display: inline-block;
 /* 	color: #fff; */
-	color: #777;
+	color: #999;
 	margin: 0 6px;
 }
 
@@ -430,7 +433,7 @@ h2 {
 .banner-content .social-icons a:hover {
 	background: #5887FF;
 /* 	color: #fff; */
-	color: #777;
+	color: #999;
 	border: 1px solid #5887FF;
 }
 
@@ -1299,7 +1302,8 @@ footer {
 	}
 
 	.header #mainNav {
-		background: #000 !important;
+		background: #abc123 !important;
+/* 		background: #000 !important; */
 		padding: 0px 15px;
 	}
 
