@@ -97,7 +97,8 @@ a:hover {
 }
 
 .btn-primary {
-	background: #5887FF;
+	background: #111;
+/* 	background: #5887FF; */
 }
 
 .form-control {
@@ -473,7 +474,7 @@ h2 {
 	margin-bottom: 3px;
 	padding: 0 4px;
 	letter-spacing: .1em;
-	line-height: 1em;
+	line-height: 1.2em;
 /* 	line-height: 2em; */
 /* 	text-transform: uppercase; */
 }
